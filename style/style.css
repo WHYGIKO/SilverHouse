@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    background-color: #fff;
+}
+.nav_menu {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+}
+.nav_logo {
+    margin: 0 auto;
+    display: flex;
+    width: 120px;
+    height: 151px;
+    margin-top: 50px;
+    margin-bottom: 79px;
+
+}
+.nav_link {
+    color: rgba(140, 138, 138, 1);
+    text-decoration: none;
+}
+.img {
+    margin-top: 30px;
+}
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section_box {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left_box {
+    gap: 25px;
+    background-color: #F0F0F0;
+    max-width: 730px;
+    width: 100%;
+    padding: 50px 95px 50px 40px;      
+    display: flex;
+    flex-direction: column;
+}
+.right_box {
+    background-color: #F0F0F0;
+    max-width: 350px;
+    width: 100%;
+    padding: 50px 24px 159px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.box_title {
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+.box_text {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.box_link {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.footer_box {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_img {
+    margin: 15px 0 15px 40px;
+}
+.right_footer {
+    color: #808080;
+    text-align: right;
+}
+.footer_text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 46px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.footer_tel {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+    margin-top: 10px;
+    margin-bottom: 46px;
+    margin-right: 45px;
+    text-decoration: none;
+}
