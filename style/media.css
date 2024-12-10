@@ -141,6 +141,14 @@
         margin-top: 10px;
         margin-bottom: 15px;
     }
+    .footer_text {
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .footer_tel {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
     .left_box {
         gap: 20px;
         padding: 30px 50px 30px 20px;
@@ -225,12 +233,5 @@
     .box_link {
         margin-bottom: 0;
     }
-    .footer_text {
-        margin-right: 20px;
-        margin-top: 30px;
-    }
-    .footer_tel {
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
+    
 }
