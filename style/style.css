@@ -35,12 +35,26 @@ body {
     color: rgba(140, 138, 138, 1);
     text-decoration: none;
 }
+.menu,
+.close {
+    cursor: pointer;
+    display: none;
+}
+.menu img {
+    width: 30px;
+}
+.close img {
+    width: 25px;
+}
+#checkbox {
+    display: none;
+}
 .img {
     margin-top: 30px;
 }
 .section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .section_box {
     background-color: white;
