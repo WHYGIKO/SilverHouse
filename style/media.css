@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    .section_box {
+        display: block;
+        
+    }
+    .left_box {
+        max-width: 1200px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .right_box {
+        max-width: 1200px;
+        width: 100%;
+    }
+}
+@media (max-width: 1150px) {
+    .img img {
+        max-width: 1150px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .box_title {
+        font-size: 18px;
+    }
+    .box_text {
+        font-size: 15px;
+    }
+    .box_link {
+        font-size: 15px;
+    }
+    .right_box {
+        max-height: 350px;
+        height: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .nav_logo {
+        width: 100px;
+        height: 135px;
+        margin-bottom: 60px;
+        margin-top: 45px;
+    }
+}
